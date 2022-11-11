@@ -1,0 +1,161 @@
+{
+  "goerli": {
+    "eip1559": true,
+    "explorer": "goerli.etherscan.io/",
+    "currency": "WETH",
+    "wrapped": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+    "abi": "../abi/UniswapV2Router02.json",
+    "abitoken": "ETH",
+    "contract": "0x532bdfb6b4e0776dd8e9aa6214164aec9a4408ad",
+    "router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "websockets": [
+      "wss://goerli.infura.io/ws/v3/10233af091414c92ab5ea21e753aac4d"
+    ],
+    "tokenTracker": "dexscreener.com",
+    "autoMagicLiquidityTokens": [
+      {
+        "token": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "minimumLiquidity": 0,
+        "maximumLiquidity": 10000000
+      }
+    ],
+    "followWallets": [
+      "0x0E1E0bfd849925f2Aee293c5fC51f99Db2a5851c"
+    ],
+    "followActionTokens": [
+      "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"
+    ],
+    "followMaxGas": {
+      "price": 30,
+      "feePerGas": 30
+    }
+  },
+  "mumbai": {
+    "eip1559": true,
+    "explorer": "mumbai.polygonscan.com",
+    "currency": "WMATIC",
+    "wrapped": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+    "abi": "../abi/UniswapV2Router02.json",
+    "abitoken": "ETH",
+    "contract": "0x270bDf11A4a2Af29e08a9aE951b49CbB100b63a7",
+    "router": "0x8954afa98594b838bda56fe4c12a09d7739d179b",
+    "tokenTracker": "mumbai.polygonscan.com/token",
+    "websockets": [],
+    "autoMagicLiquidityTokens": [
+      {
+        "token": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+        "minimumLiquidity": 0,
+        "maximumLiquidity": 10000000000
+      }
+    ],
+    "followWallets": [
+      "0x73a0B9339Ef2aD3741cB1B768c6495CBeC8D5387"
+    ],
+    "followActionTokens": [
+      "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889"
+    ],
+    "followMaxGas": {
+      "price": 10,
+      "feePerGas": 10
+    }
+  },
+  "bsct": {
+    "eip1559": false,
+    "explorer": "testnet.bscscan.com",
+    "currency": "WBNB",
+    "wrapped": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+    "abi": "../abi/UniswapV2Router02.json",
+    "abitoken": "ETH",
+    "contract": "0xbAaDE0Cc4Eba65F49692C1bF3c75c0b509Ed8763",
+    "router": "0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3",
+    "websockets": [],
+    "tokenTracker": "poocoin.app/tokens",
+    "autoMagicLiquidityTokens": [
+      {
+        "token": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "minimumLiquidity": 0,
+        "maximumLiquidity": 10000000000
+      }
+    ],
+    "followWallets": [
+      "0x73a0B9339Ef2aD3741cB1B768c6495CBeC8D5387"
+    ],
+    "followActionTokens": [
+      "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7"
+    ],
+    "followMaxGas": {
+      "price": 10,
+      "feePerGas": 10
+    }
+  },
+  "bsc": {
+    "eip1559": false,
+    "explorer": "bscscan.com",
+    "currency": "WBNB",
+    "wrapped": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "abi": "../abi/UniswapV2Router02.json",
+    "abitoken": "ETH",
+    "contract": "0xB4a6b3eE41B34097a855576561C78Fd457C62962",
+    "router": "0x10ed43c718714eb63d5aa57b78b54704e256024e",
+    "websockets": [],
+    "tokenTracker": "poocoin.app/tokens",
+    "autoMagicLiquidityTokens": [
+      {
+        "token": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "minimumLiquidity": 2,
+        "maximumLiquidity": 1
+      },
+      {
+        "token": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "minimumLiquidity": 500,
+        "maximumLiquidity": 400
+      },
+      {
+        "token": "0x55d398326f99059fF775485246999027B3197955",
+        "minimumLiquidity": 500,
+        "maximumLiquidity": 400
+      }
+    ],
+    "followWallets": [
+      "0x73a0B9339Ef2aD3741cB1B768c6495CBeC8D5387"
+    ],
+    "followActionTokens": [
+      "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "0x55d398326f99059fF775485246999027B3197955",
+      "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+    ],
+    "followMaxGas": {
+      "price": 10,
+      "feePerGas": 10
+    }
+  },
+  "avax": {
+    "eip1559": true,
+    "explorer": "snowtrace.io",
+    "currency": "WAVAX",
+    "wrapped": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+    "abi": "../abi/JoeRouter02.json",
+    "abitoken": "AVAX",
+    "contract": "0x26924ed42547ad8F0221CFCDC5eCB611E734B4B7",
+    "router": "0x60aE616a2155Ee3d9A68541Ba4544862310933d4",
+    "websockets": [],
+    "tokenTracker": "dexscanner.app/tokens",
+    "autoMagicLiquidityTokens": [
+      {
+        "token": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "minimumLiquidity": 100,
+        "maximumLiquidity": 1
+      }
+    ],
+    "followWallets": [],
+    "followActionTokens": [
+      "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7"
+    ],
+    "followMaxGas": {
+      "price": 10,
+      "feePerGas": 10
+    }
+  }
+}

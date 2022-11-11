@@ -1,0 +1,18 @@
+{
+    "AVAX": {
+        "websocket": "wss://ws-nd-624-285-332.p2pify.com/2b42c13fa78a059a42630dfb53430d9d/ext/bc/C/ws",
+        "USDT": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118"
+    },
+    "BNBT": {
+        "websocket": [
+            "wss://ws-nd-647-097-066.p2pify.com/193e13dca6d4ea8e5d661725177a8111",
+            "wss://ws-nd-888-149-571.p2pify.com/caaf45d47269b8acaf7e601f8c856733",
+            "wss://ws-nd-168-874-135.p2pify.com/7435fdf6d3c35ad32a57fc8c4aca2fb1"
+        ],
+        "BUSD": "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7"
+    },
+    "KOVAN": {
+        "websocket": "wss://eth-kovan.alchemyapi.io/v2/WTLp8Bka2tpyoUyDXPsMPYqYug6fzcu5",
+        "USDT": "0xf3e0d7bF58c5d455D31ef1c2d5375904dF525105"
+    }
+}

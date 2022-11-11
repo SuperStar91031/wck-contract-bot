@@ -1,0 +1,23 @@
+{
+  "name": "wck-contract-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "arg": "^5.0.1",
+    "ethereum-checksum-address": "^0.0.8",
+    "ethereum-input-data-decoder": "^0.3.5",
+    "ethers": "^5.5.3",
+    "readline-sync": "^1.4.10",
+    "request-promise": "^4.2.6",
+    "update-json-file": "^1.1.1"
+  }
+}

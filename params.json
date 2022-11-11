@@ -1,0 +1,64 @@
+{
+  "network": "goerli",
+  "privatekeys": [
+    "2f7d60ac8eb4fad8bb405147d9999415ab09ba2812dc067790248cb95b10b66a"
+  ],
+  "includeSender": true,
+  "preApprove": false,
+  "sellApprove": true,
+  "approveTo": "contract",
+  "stopAfterFirstTx": false,
+  "purchaseToken": "0x6104840b2A6d13EEEFa0aA49b7aDCE714132F215",
+  "liquidityToken": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+  "minimumLiquidity": 0,
+  "sellToken": "0x6104840b2A6d13EEEFa0aA49b7aDCE714132F215",
+  "useAutoMagicFor": {
+    "liquidityAdd": true,
+    "methodId": true,
+    "pinksale": false,
+    "dxSale": false
+  },
+  "listingIds": [
+    "0x095ea7b3"
+  ],
+  "devWallet": "0x195674925F07617ff9Bfff036277Dbb45fbd78CB",
+  "devActionIds": [],
+  "devActionIgnoreIds": [],
+  "gasAction": 0,
+  "devAction": 0,
+  "realBuyMethod": 1,
+  "tokenBuyAmount": 0.0001,
+  "wethSellAmount": 0.0001,
+  "antiRugPull": true,
+  "balanceCheckMultiplier": 100,
+  "sellThresholdFall": 2,
+  "toxicIds": [
+    "0x00b8cf2a"
+  ],
+  "nonToxicIds": [
+    "0x095ea7b3"
+  ],
+  "sellOnPercentageGain": 2,
+  "gasMultiplier": 1.1,
+  "useChecks": true,
+  "checkSellebility": true,
+  "wethForChecks": 0.00001,
+  "maxBuyTax": 21,
+  "maxSellTax": 22,
+  "Max_Gwei": 15,
+  "maxBuySafe": 1,
+  "Max_Weth_Spend": 0.001,
+  "autoGas": true,
+  "gasLimit": 1200000,
+  "realBuyGas": 1.5,
+  "priorityGas": 1.5,
+  "waitBeforeFirstBuy": 0,
+  "blocksDelayBeforeFirstBuy": 0,
+  "roundsToBuy": 1,
+  "delayBetweenBuys": 1.0,
+  "retryDelay": 3,
+  "retryRounds": 2,
+  "sellPercentage": 100,
+  "sellAmount": 1,
+  "USE_TokenDB":true
+}

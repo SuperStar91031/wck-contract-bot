@@ -1,0 +1,10 @@
+{
+    "BSCT": {
+        "websocket": "wss://ws-nd-647-097-066.p2pify.com/193e13dca6d4ea8e5d661725177a8111",
+        "token": "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7"
+    },
+    "Mumbai": {
+        "websocket": "wss://polygon-mumbai.g.alchemy.com/v2/jR4vXjLZc3YtzfMsw4MhFjQ897Q07-HP",
+        "token": "0x3813e82e6f7098b9583FC0F33a962D02018B6803"
+    }
+}

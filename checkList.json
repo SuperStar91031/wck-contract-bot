@@ -1,0 +1,14 @@
+[
+	{
+		"key":"isVerified",
+		"value":true
+	},
+	{
+		"key":"isLocked",
+		"value":false
+	},
+	{
+		"key":"isMalicious",
+		"value": false
+	}
+]

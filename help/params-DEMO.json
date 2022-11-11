@@ -1,0 +1,61 @@
+{
+    "websockets": [
+        "wss://ws-nd-647-097-066.p2pify.com/193e13dca6d4ea8e5d661725177a8111"
+    ],
+    "privatekeys": [
+        "2cf27cac6501a3efd005a97fc2f195fec7b03983e473bf19ec89f33948e818ce"
+    ],
+    "includeSender": true,
+    "preApprove": true,
+    "sellApprove": true,
+    "stopAfterFirstTx": true,
+    "purchaseToken": "0x30fd55b5763B3c1302F4409d44F2B3fCEbbB0e6b",
+    "liquidityToken": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+    "sellToken": "0x30fd55b5763B3c1302F4409d44F2B3fCEbbB0e6b",
+    "devWallet": "0x8BE4476D13E52E2160588979Bad86CacdC28d726",
+    "methodIds": [
+        "0x5a67cf60",
+        "0xa9059cbb"
+    ],
+    "ignoreMethodIds": [],
+    "gasAction": 1,
+    "devAction": 1,
+    "realBuyMethod": 0,
+    "tokenBuyAmount": 0.0001,
+    "wethSellAmount": 0.0001,
+    "minimumLiquidity": 0.00,
+    "maximumLiquidity": 1000000000000,
+    "antiRugPull": true,
+    "toxicIds": null,
+    "nonToxicIds": [
+        "0x095ea7b3",
+        "0xf305d719",
+        "0xe8e33700",
+        "0xe8078d94",
+        "0x6a93e5d3",
+        "0x267dd102",
+        "0x4bb278f3"
+    ],
+    "listingIds": [
+        "0xf2fde38b"
+    ],
+    "sellOnPercentageGain": 10,
+    "sellQuantityPercentage": 20,
+    "sellAmount": 0.018981056413766241,
+    "sellForEth": true,
+    "gasMultiplier": 1.2,
+    "useChecks": true,
+    "checkSellebility": true,
+    "wethForChecks": 0.00001,
+    "maxBuyTax": 66,
+    "maxSellTax": null,
+    "autoGas": true,
+    "gasLimit": 900000,
+    "realBuyGas": 1,
+    "waitBeforeFirstBuy": 0,
+    "blocksDelayBeforeFirstBuy": 0,
+    "roundsToBuy": 1,
+    "delayBetweenBuys": 1.00001,
+    "retryDelay": 3,
+    "retryRounds": 2
+}
